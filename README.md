@@ -3,7 +3,7 @@
 Collection of Various Unity Scripts in a vanilla lightweight project, Scripts are well categorized and ready to be used in your own project.
 To see how the scripts work, I have made several Mini-Games/Scenes to demonstrate the scripts running in-game.
 
-#Script Categories Available:
+# Script Categories Available:
 
 Camera-Scripts:
   - SimpleCameraFollow
