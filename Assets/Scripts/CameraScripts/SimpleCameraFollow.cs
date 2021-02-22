@@ -14,7 +14,7 @@ public class SimpleCameraFollow : MonoBehaviour
         CamDistance = transform.position - player.transform.position;
     }
 
-    void Update()
+    void LateUpdate()
     {
         transform.position = player.transform.position + CamDistance;
     }
