@@ -35,7 +35,7 @@ public class BallRollMovement : MonoBehaviour
     //Ground Check
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Ground")
+        if (other.gameObject.CompareTag("Ground"))
         {
             inAir = false;
         }
@@ -43,7 +43,7 @@ public class BallRollMovement : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Ground")
+        if (other.gameObject.CompareTag("Ground"))
         {
             inAir = true;
         }

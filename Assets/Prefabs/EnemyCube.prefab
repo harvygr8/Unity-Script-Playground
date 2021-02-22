@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2305981647599384986}
   - component: {fileID: 2305981647599384987}
   - component: {fileID: 2305981647599384988}
+  - component: {fileID: 9095183024400326368}
   m_Layer: 0
-  m_Name: CubeProps
-  m_TagString: Untagged
+  m_Name: EnemyCube
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 710e41a08630077499b685b0d5d9401b, type: 2}
+  - {fileID: 2100000, guid: 901bedfbc008cc348abfc730d61c0625, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,3 +110,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotSpeed: 25
+--- !u!114 &9095183024400326368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305981647599384989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8711d59fab2cda54ea6810edd9c4c3af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalMat: {fileID: 2100000, guid: 901bedfbc008cc348abfc730d61c0625, type: 2}
+  changedMat: {fileID: 2100000, guid: 48304f86ab8a30842b3f23abf6098f7c, type: 2}
+  isChanged: 0
+  resetTimer: 5
