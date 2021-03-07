@@ -22,5 +22,8 @@ Material-Scripts:
   - AlternateMatChanger
   - GiveRandomColor
 
+AI-FSM:
+  - FSMController
+
 This Project is something that I do whenever I feel like taking a break from my personal projects, but more scripts will be added at least once a week.
 I Hope this Script Bank helps you in your GameDev Adventures!
