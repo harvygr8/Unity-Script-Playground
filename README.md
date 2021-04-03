@@ -25,5 +25,9 @@ Material-Scripts:
 AI-FSM:
   - FSMController
 
+
+#Contribute
+
+Please Feel Free to contribute to this repo by making better changes to the original scripts or adding new ones.
 This Project is something that I do whenever I feel like taking a break from my personal projects, but more scripts will be added at least once a week.
 I Hope this Script Bank helps you in your GameDev Adventures!
